@@ -4,12 +4,12 @@
 
 # Site
 title: 小鱼的池塘
-subtitle: 'bubble,bubble,bubble...'
-description: ''
+subtitle: "bubble,bubble,bubble..."
+description: ""
 keywords:
 author: 鱼刺
-language: zh-CN  
-timezone: 'Asia/Shanghai'
+language: zh-CN
+timezone: "Asia/Shanghai"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -37,7 +37,7 @@ titlecase: false # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
   field: site # Apply to the whole site
-  exclude: ''
+  exclude: ""
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -47,21 +47,21 @@ syntax_highlighter: highlight.js
 highlight:
   line_number: true
   auto_detect: false
-  tab_replace: ''
+  tab_replace: ""
   wrap: true
   hljs: false
 prismjs:
   preprocess: true
   line_number: true
-  tab_replace: ''
+  tab_replace: ""
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
-  per_page: 10
+  path: ""
+  per_page: 8 # 减少每页文章数，让首页更简洁
   order_by: -date
 
 # Category & Tag
@@ -80,7 +80,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
-updated_option: 'mtime'
+updated_option: "mtime"
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -103,6 +103,6 @@ theme: redefine
 deploy:
   type: git
   # 必填，Github 仓库地址
-  repo: https://github.com/yuci712/yuci712.github.io.git 
-  branch: 'main'    # 决定上传到哪个节点下，这里默认选择 'main'
-  token:            # 可不填
+  repo: https://github.com/yuci712/yuci712.github.io.git
+  branch: "main" # 决定上传到哪个节点下，这里默认选择 'main'
+  token: # 可不填

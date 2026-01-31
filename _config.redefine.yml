@@ -186,10 +186,10 @@ home_banner:
       zhihu: # your ZhiHu URL
       twitter: # your twitter URL
       email: # ...... # you can add more
-      qq: https://qm.qq.com/cgi-bin/qm/qr?k=153724304&jump_from=webapi
     # Social links with QRcode drawers
     qrs:
       weixin: # your Wechat QRcode image URL
+      qq: /images/qq-qrcode.png # 添加 QQ 二维码图片路径
       # ...... # you can add more
 # HOME BANNER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
@@ -247,7 +247,8 @@ navbar:
       submenus:
         Github: https://github.com/yuci712
         Bilibili: https://space.bilibili.com/3494367656413795?spm_id_from=333.1007.0.0
-        qq: https://qm.qq.com/cgi-bin/qm/qr?k=153724304&jump_from=webapi
+        WeChat: # 微信
+        QQ: # QQ
     Github:
       icon: fa-brands fa-github
       path: https://github.com/yuci712/yuci712.github.io

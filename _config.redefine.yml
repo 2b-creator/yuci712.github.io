@@ -125,8 +125,8 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image:
-    light: /images/l.png # light mode
-    dark: /images/d.png # dark mode
+    light: /images/l.jpg # light mode
+    dark: /images/d.jpg # dark mode
   # Home banner title
   title: 小鱼的池塘
   # Home banner subtitle

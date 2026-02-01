@@ -322,7 +322,7 @@ articles:
     min2read: true # Whether to display reading time
   # Author label
   author_label:
-    enable: true # Whether to enable
+    enable: false # 关闭作者标签显示（Lv1, Lv2 等）
     auto: false # Whether to automatically add author label, e.g. Lv1, Lv2, Lv3...
     list: []
   # Code block settings
@@ -345,7 +345,7 @@ articles:
     init_open: true # Open toc by default
   # Whether to enable copyright notice
   copyright:
-    enable: true # Whether to enable
+    enable: false # 关闭版权声明显示
     default: cc_by_nc_sa # Default license, can be cc_by_nc_sa, cc_by_nd, cc_by_nc, cc_by_sa, cc_by, all_rights_reserved, public_domain
   # Whether to enable lazyload for images
   lazyload: true

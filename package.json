@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-  "build": "echo '不需要手动 build，GitHub Actions 会自动构建。本地预览用 npm run server'",
+  "dev": "npm run clean && npm run server",
+  "build": "hexo generate",
   "clean": "hexo clean",
   "deploy": "echo '请使用 git push 部署，而不是 hexo deploy'",
   "server": "hexo server"

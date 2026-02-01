@@ -255,7 +255,7 @@ navbar:
 home:
   # Sidebar settings
   sidebar:
-    enable: true # Whether to enable sidebar
+    enable: false # 关闭侧边栏
     position: right # Sidebar position. left, right - 右侧更符合阅读习惯
     first_item: info # First item in sidebar. menu, info - 改成 info 显示头像
     announcement: # Announcement text

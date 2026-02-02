@@ -91,7 +91,7 @@ global:
     # Whether to enable gear rotation animation for settings button
     gear_rotation: true
     # Whether to auto expand tools list on page load
-    auto_expand: false
+    auto_expand: true # 改成 true，页面加载时自动展开工具列表
   # Whether to enable open graph
   open_graph:
     enable: true
@@ -236,6 +236,9 @@ navbar:
     ShuoShuo:
       icon: fa-solid fa-comment-dots
       path: /shuoshuo
+    留言板:
+      icon: fa-solid fa-comments
+      path: /2005/07/12/留言板/
     友链:
       icon: fa-regular fa-link
       submenus:
@@ -267,12 +270,12 @@ home:
       Archives:
         path: /archives
         icon: fa-regular fa-archive # 图标可以为空
-      Gallery:
-        path: /masonry
-        icon: fa-solid fa-image
-      Tags:
-        path: /tags
-        icon: fa-regular fa-tags
+      # Gallery:  # 暂时隐藏
+      #   path: /masonry
+      #   icon: fa-solid fa-image
+      # Tags:  # 暂时隐藏
+      #   path: /tags
+      #   icon: fa-regular fa-tags
       Categories:
         path: /categories
         icon: fa-regular fa-folder

@@ -132,7 +132,7 @@ home_banner:
   # Home banner subtitle
   subtitle:
     text: [
-        "随心所欲地享受每一天",
+        "bubble,bubble,bubble...",
         "欢迎来到小鱼的池塘",
         "正在不断努力改善博客中",
       ] # 精简到 3 句最有特色的
@@ -148,7 +148,7 @@ home_banner:
     smart_backspace: true # Whether to smart backspace
   # Color of home banner text
   text_color:
-    light: "#101010" # light mode
+    light: "#fef9e7" # light mode - 温暖的米白色
     dark: "#d1d1b6" # dark mode
   # Specific style of the text
   text_style:

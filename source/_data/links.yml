@@ -3,28 +3,28 @@
   list:
       - name: 藤君
         link: https://blog.stivine.fun/
-        description: your_descriptions
+        description: 普通本科生一枚。喜欢学习各种各样的技术，但也崇拜研究基础学科的人。
         avatar: https://blog.stivine.fun/_astro/avatar.DMzK2l5f_1pMV8V.webp
         # thumbnail: https://blog.stivine.fun/_astro/avatar.DMzK2l5f_1pMV8V.webp # has_thumbnail 为 true 时才需要
       - name: 温温
         link: https://zyzzyva0381.github.io/windy-blog/
-        description: your_descriptions
+        description: For where your treasure is, there your heart will be also. 
         avatar: https://zyzzyva0381.github.io/windy-blog/_astro/avatar.DkWybOGa_dPYUW.webp
       - name: 龙龙
         link: https://phenol-cat.github.io/homepage/
-        description: your_descriptions
+        description:  
         avatar: https://phenol-cat.github.io/homepage/assets/avatar-oCVRz1LU.png
       - name: 坤坤
         link: https://xjtujtm.github.io/songyangjiang/
-        description: your_descriptions
-        # avatar: https://phenol-cat.github.io/homepage/assets/avatar-oCVRz1LU.png
+        description:  
+        avatar: https://xjtujtm.github.io/songyangjiang/static/assets/img/photo.png
       - name: 墨墨
         link: https://github.com/ianchiou28
-        description: your_descriptions
+        description:  
         avatar: https://avatars.githubusercontent.com/u/163626178?v=4
       - name: 瑞瑞
         link: https://zhangruian123.github.io/
-        description: your_descriptions
+        description:  
         avatar: https://zhangruian123.github.io/img/touxiang.jpg
       - name: 兔兔
         link: https://blog.jsut.site/

@@ -175,7 +175,7 @@ home_banner:
     # Social links
     links:
       github: https://github.com/yuci712
-      bilibili: https://space.bilibili.com/3494367656413795?spm_id_from=333.1007.0.0
+      bilibili: https://space.bilibili.com/3494367656413795
       instagram: # your Instagram URL
       zhihu: # your ZhiHu URL
       twitter: # your twitter URL
@@ -238,16 +238,18 @@ navbar:
       path: /shuoshuo
     留言板:
       icon: fa-solid fa-comments
-      path: /2005/07/11/guestbook/
-    友链:
+      path: /messages/guestbook/
+    Friends:
       icon: fa-regular fa-link
-      submenus:
-        藤君: https://blog.stivine.fun/
-        温温: https://zyzzyva0381.github.io/windy-blog/
-        龙龙: https://phenol-cat.github.io/homepage/
-        坤坤: https://xjtujtm.github.io/songyangjiang/
-        墨墨: https://github.com/ianchiou28
-        瑞瑞: https://zhangruian123.github.io/
+      path: /links
+      # submenus:
+      #   藤君: https://blog.stivine.fun/
+      #   温温: https://zyzzyva0381.github.io/windy-blog/
+      #   龙龙: https://phenol-cat.github.io/homepage/
+      #   坤坤: https://xjtujtm.github.io/songyangjiang/
+      #   墨墨: https://github.com/ianchiou28
+      #   瑞瑞: https://zhangruian123.github.io/
+      #   兔兔: https://blog.jsut.site/
 
   search:
     # Whether to enable
@@ -270,6 +272,9 @@ home:
       Archives:
         path: /archives
         icon: fa-regular fa-archive # 图标可以为空
+      Friends: #取名随意
+        icon: fa-solid fa-link #图标
+        path: /links
       # Gallery:  # 暂时隐藏
       #   path: /masonry
       #   icon: fa-solid fa-image

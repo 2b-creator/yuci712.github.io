@@ -4,6 +4,7 @@ date: 2005-07-12 05:20:00
 categories:
   - 留言板
 sticky: 999
+comment: true
 ---
 
 欢迎在这里留言！

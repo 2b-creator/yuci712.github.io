@@ -1,0 +1,48 @@
+- links_category: Elites
+  has_thumbnail: false
+  list:
+      - name: 藤君
+        link: https://blog.stivine.fun/
+        description: your_descriptions
+        avatar: https://blog.stivine.fun/_astro/avatar.DMzK2l5f_1pMV8V.webp
+        # thumbnail: https://blog.stivine.fun/_astro/avatar.DMzK2l5f_1pMV8V.webp # has_thumbnail 为 true 时才需要
+      - name: 温温
+        link: https://zyzzyva0381.github.io/windy-blog/
+        description: your_descriptions
+        avatar: https://zyzzyva0381.github.io/windy-blog/_astro/avatar.DkWybOGa_dPYUW.webp
+      - name: 龙龙
+        link: https://phenol-cat.github.io/homepage/
+        description: your_descriptions
+        avatar: https://phenol-cat.github.io/homepage/assets/avatar-oCVRz1LU.png
+      - name: 坤坤
+        link: https://xjtujtm.github.io/songyangjiang/
+        description: your_descriptions
+        # avatar: https://phenol-cat.github.io/homepage/assets/avatar-oCVRz1LU.png
+      - name: 墨墨
+        link: https://github.com/ianchiou28
+        description: your_descriptions
+        avatar: https://avatars.githubusercontent.com/u/163626178?v=4
+      - name: 瑞瑞
+        link: https://zhangruian123.github.io/
+        description: your_descriptions
+        avatar: https://zhangruian123.github.io/img/touxiang.jpg
+      - name: 兔兔
+        link: https://blog.jsut.site/
+        description: 花有重开日，人无再少年
+        avatar: https://s2.loli.net/2026/02/04/JpsPVvzI8akE7TW.jpg
+
+      
+
+
+
+# - links_category: Normal
+#   has_thumbnail: false
+#   list:
+#       - name: Example Site
+#         link: https://example.com
+#         description: Example Site Description
+#         avatar: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+#       - name: Example Site 2
+#         link: https://example.com
+#         description: Example Site Description
+#         avatar: https://www.youtube.com/watch?v=dQw4w9WgXcQ

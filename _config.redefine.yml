@@ -239,6 +239,9 @@ navbar:
     留言板:
       icon: fa-solid fa-comments
       path: /messages/guestbook/
+    摸鱼:
+      icon: fa-solid fa-gamepad
+      path: /game
     Friends:
       icon: fa-regular fa-link
       path: /links

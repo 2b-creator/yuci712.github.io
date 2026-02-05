@@ -445,7 +445,7 @@ inject:
   enable: true
   # Inject custom head html code
   head:
-    - <style>.right-side-tools-container{bottom:100px!important;}</style>
+    - <style>.right-side-tools-container{bottom:88px!important;}</style>
   # Inject custom footer html code
   footer:
     - <div id="scroll-down-btn" style="position:fixed;bottom:200px;left:50%;transform:translateX(-50%);width:50px;height:50px;border-radius:50%;background:rgba(255,255,255,0.2);backdrop-filter:blur(10px);border:2px solid rgba(255,255,255,0.3);cursor:pointer;display:none;align-items:center;justify-content:center;font-size:28px;color:white;z-index:9999;transition:all 0.3s;animation:bounce 2s infinite;box-shadow:0 4px 12px rgba(0,0,0,0.15);" title="向下滚动" onclick="window.scrollTo({top:window.pageYOffset+window.innerHeight,behavior:'smooth'})">↓</div><style>@keyframes bounce{0%,20%,50%,80%,100%{transform:translateX(-50%) translateY(0)}40%{transform:translateX(-50%) translateY(-10px)}60%{transform:translateX(-50%) translateY(-5px)}}#scroll-down-btn:hover{background:rgba(255,255,255,0.3);transform:translateX(-50%) scale(1.1)!important}</style><script>if(window.location.pathname==='/'||window.location.pathname==='/index.html'){var btn=document.getElementById('scroll-down-btn');if(btn){btn.style.display='flex';btn.style.opacity='1';var checkScroll=function(){var scrollTop=window.pageYOffset||document.documentElement.scrollTop;if(scrollTop>200){if(btn.style.opacity!=='0'){btn.style.opacity='0';btn.style.transform='translateX(-50%) scale(0)';}}else{if(btn.style.opacity!=='1'){btn.style.display='flex';btn.style.opacity='1';btn.style.transform='translateX(-50%) scale(1)';}}};window.addEventListener('scroll',checkScroll);checkScroll();}}</script>

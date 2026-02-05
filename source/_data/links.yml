@@ -3,7 +3,7 @@
   list:
       - name: 藤君
         link: https://blog.stivine.fun/
-        description: 普通本科生一枚。喜欢学习各种各样的技术，但也崇拜研究基础学科的人。
+        description: 喜欢学习各种各样的技术，但也崇拜研究基础学科的人。
         avatar: https://blog.stivine.fun/_astro/avatar.DMzK2l5f_1pMV8V.webp
         # thumbnail: https://blog.stivine.fun/_astro/avatar.DMzK2l5f_1pMV8V.webp # has_thumbnail 为 true 时才需要
       - name: 温温
